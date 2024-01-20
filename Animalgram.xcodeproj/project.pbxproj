@@ -10,12 +10,15 @@
 		EC705ED82B5C120D007F5A2F /* AnimalgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705ED72B5C120D007F5A2F /* AnimalgramApp.swift */; };
 		EC705EDA2B5C120D007F5A2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705ED92B5C120D007F5A2F /* Persistence.swift */; };
 		EC705EDD2B5C120D007F5A2F /* Animalgram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC705EDB2B5C120D007F5A2F /* Animalgram.xcdatamodeld */; };
-		EC705EDF2B5C120D007F5A2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EDE2B5C120D007F5A2F /* ContentView.swift */; };
+		EC705EDF2B5C120D007F5A2F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EDE2B5C120D007F5A2F /* HomeView.swift */; };
 		EC705EE12B5C120F007F5A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC705EE02B5C120F007F5A2F /* Assets.xcassets */; };
 		EC705EE52B5C120F007F5A2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC705EE42B5C120F007F5A2F /* Preview Assets.xcassets */; };
 		EC705EEF2B5C120F007F5A2F /* AnimalgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EEE2B5C120F007F5A2F /* AnimalgramTests.swift */; };
-		EC705EF92B5C120F007F5A2F /* AnimalgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EF82B5C120F007F5A2F /* AnimalgramUITests.swift */; };
-		EC705EFB2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EFA2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift */; };
+		EC705F232B5C1423007F5A2F /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC705F222B5C1423007F5A2F /* Color.xcassets */; };
+		EC705F262B5C144B007F5A2F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EC705F252B5C144B007F5A2F /* Localizable.xcstrings */; };
+		EC705F2A2B5C147C007F5A2F /* Image+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705F292B5C147C007F5A2F /* Image+Default.swift */; };
+		EC705F2D2B5C14C3007F5A2F /* Color+default.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705F2C2B5C14C3007F5A2F /* Color+default.swift */; };
+		EC705F362B5C1595007F5A2F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705F352B5C1595007F5A2F /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +43,18 @@
 		EC705ED72B5C120D007F5A2F /* AnimalgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramApp.swift; sourceTree = "<group>"; };
 		EC705ED92B5C120D007F5A2F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EC705EDC2B5C120D007F5A2F /* Animalgram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Animalgram.xcdatamodel; sourceTree = "<group>"; };
-		EC705EDE2B5C120D007F5A2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC705EDE2B5C120D007F5A2F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EC705EE02B5C120F007F5A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC705EE22B5C120F007F5A2F /* Animalgram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Animalgram.entitlements; sourceTree = "<group>"; };
 		EC705EE42B5C120F007F5A2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC705EEA2B5C120F007F5A2F /* AnimalgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC705EEE2B5C120F007F5A2F /* AnimalgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramTests.swift; sourceTree = "<group>"; };
 		EC705EF42B5C120F007F5A2F /* AnimalgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC705EF82B5C120F007F5A2F /* AnimalgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramUITests.swift; sourceTree = "<group>"; };
-		EC705EFA2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC705F222B5C1423007F5A2F /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		EC705F252B5C144B007F5A2F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		EC705F292B5C147C007F5A2F /* Image+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Default.swift"; sourceTree = "<group>"; };
+		EC705F2C2B5C14C3007F5A2F /* Color+default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+default.swift"; sourceTree = "<group>"; };
+		EC705F352B5C1595007F5A2F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,8 @@
 			children = (
 				EC705ED62B5C120D007F5A2F /* Animalgram */,
 				EC705EED2B5C120F007F5A2F /* AnimalgramTests */,
-				EC705EF72B5C120F007F5A2F /* AnimalgramUITests */,
 				EC705ED52B5C120D007F5A2F /* Products */,
+				EC705F192B5C1356007F5A2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +105,9 @@
 		EC705ED62B5C120D007F5A2F /* Animalgram */ = {
 			isa = PBXGroup;
 			children = (
-				EC705ED72B5C120D007F5A2F /* AnimalgramApp.swift */,
-				EC705ED92B5C120D007F5A2F /* Persistence.swift */,
-				EC705EDE2B5C120D007F5A2F /* ContentView.swift */,
-				EC705EE02B5C120F007F5A2F /* Assets.xcassets */,
-				EC705EE22B5C120F007F5A2F /* Animalgram.entitlements */,
-				EC705EDB2B5C120D007F5A2F /* Animalgram.xcdatamodeld */,
+				EC705F312B5C1569007F5A2F /* Module */,
+				EC705F2E2B5C14F1007F5A2F /* Base */,
+				EC705F1D2B5C13B4007F5A2F /* Common */,
 				EC705EE32B5C120F007F5A2F /* Preview Content */,
 			);
 			path = Animalgram;
@@ -126,13 +129,147 @@
 			path = AnimalgramTests;
 			sourceTree = "<group>";
 		};
-		EC705EF72B5C120F007F5A2F /* AnimalgramUITests */ = {
+		EC705F192B5C1356007F5A2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC705EF82B5C120F007F5A2F /* AnimalgramUITests.swift */,
-				EC705EFA2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift */,
 			);
-			path = AnimalgramUITests;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC705F1D2B5C13B4007F5A2F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F2F2B5C1505007F5A2F /* Data */,
+				EC705F272B5C145B007F5A2F /* Extensions */,
+				EC705F1E2B5C13BC007F5A2F /* Resources */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EC705F1E2B5C13BC007F5A2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F242B5C142B007F5A2F /* Localizable */,
+				EC705F1F2B5C13C4007F5A2F /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC705F1F2B5C13C4007F5A2F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F212B5C140F007F5A2F /* Color */,
+				EC705F202B5C13CD007F5A2F /* Image */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EC705F202B5C13CD007F5A2F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EC705EE02B5C120F007F5A2F /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EC705F212B5C140F007F5A2F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F222B5C1423007F5A2F /* Color.xcassets */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		EC705F242B5C142B007F5A2F /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F252B5C144B007F5A2F /* Localizable.xcstrings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		EC705F272B5C145B007F5A2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F2B2B5C14B8007F5A2F /* Color */,
+				EC705F282B5C1467007F5A2F /* Image */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC705F282B5C1467007F5A2F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F292B5C147C007F5A2F /* Image+Default.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EC705F2B2B5C14B8007F5A2F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F2C2B5C14C3007F5A2F /* Color+default.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		EC705F2E2B5C14F1007F5A2F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EC705EE22B5C120F007F5A2F /* Animalgram.entitlements */,
+				EC705ED72B5C120D007F5A2F /* AnimalgramApp.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EC705F2F2B5C1505007F5A2F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F302B5C150B007F5A2F /* CoreData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EC705F302B5C150B007F5A2F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EC705ED92B5C120D007F5A2F /* Persistence.swift */,
+				EC705EDB2B5C120D007F5A2F /* Animalgram.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EC705F312B5C1569007F5A2F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F322B5C1576007F5A2F /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EC705F322B5C1576007F5A2F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F342B5C158A007F5A2F /* ViewModel */,
+				EC705F332B5C157F007F5A2F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC705F332B5C157F007F5A2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC705EDE2B5C120D007F5A2F /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC705F342B5C158A007F5A2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC705F352B5C1595007F5A2F /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +378,8 @@
 			files = (
 				EC705EE52B5C120F007F5A2F /* Preview Assets.xcassets in Resources */,
 				EC705EE12B5C120F007F5A2F /* Assets.xcassets in Resources */,
+				EC705F262B5C144B007F5A2F /* Localizable.xcstrings in Resources */,
+				EC705F232B5C1423007F5A2F /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +405,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC705ED82B5C120D007F5A2F /* AnimalgramApp.swift in Sources */,
+				EC705F2A2B5C147C007F5A2F /* Image+Default.swift in Sources */,
+				EC705F362B5C1595007F5A2F /* HomeViewModel.swift in Sources */,
 				EC705EDA2B5C120D007F5A2F /* Persistence.swift in Sources */,
-				EC705EDF2B5C120D007F5A2F /* ContentView.swift in Sources */,
+				EC705EDF2B5C120D007F5A2F /* HomeView.swift in Sources */,
 				EC705EDD2B5C120D007F5A2F /* Animalgram.xcdatamodeld in Sources */,
+				EC705F2D2B5C14C3007F5A2F /* Color+default.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +426,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC705EF92B5C120F007F5A2F /* AnimalgramUITests.swift in Sources */,
-				EC705EFB2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Animalgram/Animalgram.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Animalgram/Base/Animalgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Animalgram/Preview Content\"";
@@ -450,7 +590,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Animalgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Animalgram/Animalgram.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Animalgram/Base/Animalgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Animalgram/Preview Content\"";
@@ -488,7 +629,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Animalgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
