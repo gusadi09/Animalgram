@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC705ED82B5C120D007F5A2F /* AnimalgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705ED72B5C120D007F5A2F /* AnimalgramApp.swift */; };
+		EC705EDA2B5C120D007F5A2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705ED92B5C120D007F5A2F /* Persistence.swift */; };
+		EC705EDD2B5C120D007F5A2F /* Animalgram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC705EDB2B5C120D007F5A2F /* Animalgram.xcdatamodeld */; };
+		EC705EDF2B5C120D007F5A2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EDE2B5C120D007F5A2F /* ContentView.swift */; };
+		EC705EE12B5C120F007F5A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC705EE02B5C120F007F5A2F /* Assets.xcassets */; };
+		EC705EE52B5C120F007F5A2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC705EE42B5C120F007F5A2F /* Preview Assets.xcassets */; };
+		EC705EEF2B5C120F007F5A2F /* AnimalgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EEE2B5C120F007F5A2F /* AnimalgramTests.swift */; };
+		EC705EF92B5C120F007F5A2F /* AnimalgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EF82B5C120F007F5A2F /* AnimalgramUITests.swift */; };
+		EC705EFB2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC705EFA2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC705EEB2B5C120F007F5A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC705ECC2B5C120D007F5A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC705ED32B5C120D007F5A2F;
+			remoteInfo = Animalgram;
+		};
+		EC705EF52B5C120F007F5A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC705ECC2B5C120D007F5A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC705ED32B5C120D007F5A2F;
+			remoteInfo = Animalgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC705ED42B5C120D007F5A2F /* Animalgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animalgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC705ED72B5C120D007F5A2F /* AnimalgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramApp.swift; sourceTree = "<group>"; };
+		EC705ED92B5C120D007F5A2F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EC705EDC2B5C120D007F5A2F /* Animalgram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Animalgram.xcdatamodel; sourceTree = "<group>"; };
+		EC705EDE2B5C120D007F5A2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC705EE02B5C120F007F5A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC705EE22B5C120F007F5A2F /* Animalgram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Animalgram.entitlements; sourceTree = "<group>"; };
+		EC705EE42B5C120F007F5A2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC705EEA2B5C120F007F5A2F /* AnimalgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC705EEE2B5C120F007F5A2F /* AnimalgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramTests.swift; sourceTree = "<group>"; };
+		EC705EF42B5C120F007F5A2F /* AnimalgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC705EF82B5C120F007F5A2F /* AnimalgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramUITests.swift; sourceTree = "<group>"; };
+		EC705EFA2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalgramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC705ED12B5C120D007F5A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC705EE72B5C120F007F5A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC705EF12B5C120F007F5A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC705ECB2B5C120D007F5A2F = {
+			isa = PBXGroup;
+			children = (
+				EC705ED62B5C120D007F5A2F /* Animalgram */,
+				EC705EED2B5C120F007F5A2F /* AnimalgramTests */,
+				EC705EF72B5C120F007F5A2F /* AnimalgramUITests */,
+				EC705ED52B5C120D007F5A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC705ED52B5C120D007F5A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC705ED42B5C120D007F5A2F /* Animalgram.app */,
+				EC705EEA2B5C120F007F5A2F /* AnimalgramTests.xctest */,
+				EC705EF42B5C120F007F5A2F /* AnimalgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC705ED62B5C120D007F5A2F /* Animalgram */ = {
+			isa = PBXGroup;
+			children = (
+				EC705ED72B5C120D007F5A2F /* AnimalgramApp.swift */,
+				EC705ED92B5C120D007F5A2F /* Persistence.swift */,
+				EC705EDE2B5C120D007F5A2F /* ContentView.swift */,
+				EC705EE02B5C120F007F5A2F /* Assets.xcassets */,
+				EC705EE22B5C120F007F5A2F /* Animalgram.entitlements */,
+				EC705EDB2B5C120D007F5A2F /* Animalgram.xcdatamodeld */,
+				EC705EE32B5C120F007F5A2F /* Preview Content */,
+			);
+			path = Animalgram;
+			sourceTree = "<group>";
+		};
+		EC705EE32B5C120F007F5A2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC705EE42B5C120F007F5A2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC705EED2B5C120F007F5A2F /* AnimalgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC705EEE2B5C120F007F5A2F /* AnimalgramTests.swift */,
+			);
+			path = AnimalgramTests;
+			sourceTree = "<group>";
+		};
+		EC705EF72B5C120F007F5A2F /* AnimalgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC705EF82B5C120F007F5A2F /* AnimalgramUITests.swift */,
+				EC705EFA2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift */,
+			);
+			path = AnimalgramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC705ED32B5C120D007F5A2F /* Animalgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC705EFE2B5C120F007F5A2F /* Build configuration list for PBXNativeTarget "Animalgram" */;
+			buildPhases = (
+				EC705ED02B5C120D007F5A2F /* Sources */,
+				EC705ED12B5C120D007F5A2F /* Frameworks */,
+				EC705ED22B5C120D007F5A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animalgram;
+			productName = Animalgram;
+			productReference = EC705ED42B5C120D007F5A2F /* Animalgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC705EE92B5C120F007F5A2F /* AnimalgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC705F012B5C120F007F5A2F /* Build configuration list for PBXNativeTarget "AnimalgramTests" */;
+			buildPhases = (
+				EC705EE62B5C120F007F5A2F /* Sources */,
+				EC705EE72B5C120F007F5A2F /* Frameworks */,
+				EC705EE82B5C120F007F5A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC705EEC2B5C120F007F5A2F /* PBXTargetDependency */,
+			);
+			name = AnimalgramTests;
+			productName = AnimalgramTests;
+			productReference = EC705EEA2B5C120F007F5A2F /* AnimalgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC705EF32B5C120F007F5A2F /* AnimalgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC705F042B5C120F007F5A2F /* Build configuration list for PBXNativeTarget "AnimalgramUITests" */;
+			buildPhases = (
+				EC705EF02B5C120F007F5A2F /* Sources */,
+				EC705EF12B5C120F007F5A2F /* Frameworks */,
+				EC705EF22B5C120F007F5A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC705EF62B5C120F007F5A2F /* PBXTargetDependency */,
+			);
+			name = AnimalgramUITests;
+			productName = AnimalgramUITests;
+			productReference = EC705EF42B5C120F007F5A2F /* AnimalgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC705ECC2B5C120D007F5A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EC705ED32B5C120D007F5A2F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EC705EE92B5C120F007F5A2F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EC705ED32B5C120D007F5A2F;
+					};
+					EC705EF32B5C120F007F5A2F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EC705ED32B5C120D007F5A2F;
+					};
+				};
+			};
+			buildConfigurationList = EC705ECF2B5C120D007F5A2F /* Build configuration list for PBXProject "Animalgram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC705ECB2B5C120D007F5A2F;
+			productRefGroup = EC705ED52B5C120D007F5A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC705ED32B5C120D007F5A2F /* Animalgram */,
+				EC705EE92B5C120F007F5A2F /* AnimalgramTests */,
+				EC705EF32B5C120F007F5A2F /* AnimalgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC705ED22B5C120D007F5A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC705EE52B5C120F007F5A2F /* Preview Assets.xcassets in Resources */,
+				EC705EE12B5C120F007F5A2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC705EE82B5C120F007F5A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC705EF22B5C120F007F5A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC705ED02B5C120D007F5A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC705ED82B5C120D007F5A2F /* AnimalgramApp.swift in Sources */,
+				EC705EDA2B5C120D007F5A2F /* Persistence.swift in Sources */,
+				EC705EDF2B5C120D007F5A2F /* ContentView.swift in Sources */,
+				EC705EDD2B5C120D007F5A2F /* Animalgram.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC705EE62B5C120F007F5A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC705EEF2B5C120F007F5A2F /* AnimalgramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC705EF02B5C120F007F5A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC705EF92B5C120F007F5A2F /* AnimalgramUITests.swift in Sources */,
+				EC705EFB2B5C120F007F5A2F /* AnimalgramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC705EEC2B5C120F007F5A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC705ED32B5C120D007F5A2F /* Animalgram */;
+			targetProxy = EC705EEB2B5C120F007F5A2F /* PBXContainerItemProxy */;
+		};
+		EC705EF62B5C120F007F5A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC705ED32B5C120D007F5A2F /* Animalgram */;
+			targetProxy = EC705EF52B5C120F007F5A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC705EFC2B5C120F007F5A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC705EFD2B5C120F007F5A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EC705EFF2B5C120F007F5A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Animalgram/Animalgram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animalgram/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M5M727687;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Animalgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC705F002B5C120F007F5A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Animalgram/Animalgram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animalgram/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M5M727687;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Animalgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC705F022B5C120F007F5A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M5M727687;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnimalgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animalgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animalgram";
+			};
+			name = Debug;
+		};
+		EC705F032B5C120F007F5A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M5M727687;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnimalgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animalgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animalgram";
+			};
+			name = Release;
+		};
+		EC705F052B5C120F007F5A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M5M727687;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnimalgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animalgram;
+			};
+			name = Debug;
+		};
+		EC705F062B5C120F007F5A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M5M727687;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AnimalgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animalgram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC705ECF2B5C120D007F5A2F /* Build configuration list for PBXProject "Animalgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC705EFC2B5C120F007F5A2F /* Debug */,
+				EC705EFD2B5C120F007F5A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC705EFE2B5C120F007F5A2F /* Build configuration list for PBXNativeTarget "Animalgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC705EFF2B5C120F007F5A2F /* Debug */,
+				EC705F002B5C120F007F5A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC705F012B5C120F007F5A2F /* Build configuration list for PBXNativeTarget "AnimalgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC705F022B5C120F007F5A2F /* Debug */,
+				EC705F032B5C120F007F5A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC705F042B5C120F007F5A2F /* Build configuration list for PBXNativeTarget "AnimalgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC705F052B5C120F007F5A2F /* Debug */,
+				EC705F062B5C120F007F5A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC705EDB2B5C120D007F5A2F /* Animalgram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC705EDC2B5C120D007F5A2F /* Animalgram.xcdatamodel */,
+			);
+			currentVersion = EC705EDC2B5C120D007F5A2F /* Animalgram.xcdatamodel */;
+			path = Animalgram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC705ECC2B5C120D007F5A2F /* Project object */;
+}
